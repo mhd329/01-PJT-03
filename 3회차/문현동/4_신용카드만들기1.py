@@ -10,7 +10,7 @@ for test_case in range(1, T + 1):
     i = 0
     sum_ = 0
     
-    while i < len(N):
+    while i < len(N): # 전체 번호 리스트에서 홀수 짝수를 구분하여 경우에 맞는 연산을 한 값을 sum_ 변수에 모두 할당했다.
         if i % 2:
             sum_ += N[i]
         else:

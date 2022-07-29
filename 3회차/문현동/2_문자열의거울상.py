@@ -21,6 +21,6 @@ for test_case in range(1, T + 1):
 
         elif S[i] == 'd':
             s = 'b' + s
-
-
+# 문자열을 0 부터 돌면서 해당 값을 다른 값으로 바꿔줌
+# replace 를 활용하고 싶었지만 어려웠다.
     print(f"#{test_case} {s}")
